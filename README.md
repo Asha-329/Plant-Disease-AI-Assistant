@@ -200,19 +200,39 @@ submitting the final README.*
 
 ## Repository Structure
 
-The exact repository folder structure is not specified in the SRS.
-Update this section to match the folders that actually exist in your
-GitHub repository.
+The repository currently contains the following top-level folders and
+starter files. The `.gitkeep` files keep otherwise-empty folders visible
+in GitHub. Add source files to the relevant folders as implementation
+progresses.
 
-Example structure (use only if it matches your implementation):
-
-``` text
+```text
 Plant-Disease-AI-Assistant/
 ├── frontend/
+│   ├── .gitkeep
+│   └── backend/
+│       └── .gitkeep
 ├── backend/
-├── docs/
+│   ├── .gitkeep
+│   └── ai-model/
+│       ├── .gitkeep
+│       └── database/
+│           └── docs/
+│               └── .gitkeep
+├── diagrams/
+│   ├── diagram 1.jpeg
+│   ├── diagram 2.jpeg
+│   ├── diagram 4.jpeg
+│   └── diagrqam 3.jpeg
+├── documentation/
+│   └── .gitkeep
+├── database
 └── README.md
 ```
+
+**Note:** The current root-level `database` item is a file, not a folder.
+It has been left unchanged to avoid deleting or replacing existing content.
+Once the team confirms it is only a placeholder, it can be replaced with
+a proper `database/` directory for database scripts and schema files.
 
 ## Configuration
 
