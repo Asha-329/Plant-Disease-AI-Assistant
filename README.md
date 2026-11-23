@@ -200,10 +200,9 @@ submitting the final README.*
 
 ## Repository Structure
 
-The repository currently contains the following top-level folders and
-starter files. The `.gitkeep` files keep otherwise-empty folders visible
-in GitHub. Add source files to the relevant folders as implementation
-progresses.
+The repository has the required top-level folders for the initial project
+setup. The `.gitkeep` files keep empty folders visible in GitHub. Add
+implementation files to the relevant folders as development progresses.
 
 ```text
 Plant-Disease-AI-Assistant/
@@ -218,22 +217,21 @@ Plant-Disease-AI-Assistant/
 │       └── database/
 │           └── docs/
 │               └── .gitkeep
+├── database/
+│   └── README.md
+├── documentation/
+│   └── .gitkeep
 ├── diagrams/
 │   ├── diagram 1.jpeg
 │   ├── diagram 2.jpeg
 │   ├── diagram 4.jpeg
 │   └── diagrqam 3.jpeg
-├── documentation/
-│   └── .gitkeep
-├── database
 └── README.md
 ```
 
-**Note:** The current root-level `database` item is a file, not a folder.
-It has been left unchanged to avoid deleting or replacing existing content.
-Once the team confirms it is only a placeholder, it can be replaced with
-a proper `database/` directory for database scripts and schema files.
-
+The original root-level `database` placeholder text has been preserved
+in `database/README.md`. Existing nested placeholder folders have been
+retained.
 ## Configuration
 
 The SRS identifies the following configuration variables:
